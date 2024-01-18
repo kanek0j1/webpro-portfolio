@@ -4,9 +4,15 @@ import dogImage from "../images/dogmac.jpg";
 import rogo3 from "../images/rogo3.png";
 import '../css/homepage.css';
 
+import {motion} from "framer-motion"
+
 const HomePage = () => {
   return (
-    <>
+    <motion.div 
+      initial={{opacity: 0}} 
+      animate={{opacity: 1}} 
+      transition={{duration: 1.0, delay:0.4}}
+    >
       <div class="top">
         <img src = {dogImage} alt ="dogmac"></img>
       </div>
@@ -16,7 +22,13 @@ const HomePage = () => {
         </li>
         <li>
             <p>この授業や自分で学んできたものを</p>
-            <p>このサイトで紹介できればと思います</p>
+            <motion.div
+              initial={{ x: -100, opacity: 0 }} // 初期状態の指定
+              animate={{ x: 0, opacity: 1 }}    // アニメーション後の状態の指定
+              transition={{ duration: 1 }}      // アニメーションの時間
+            >
+              <p>このサイトで紹介できればと思います</p>
+            </motion.div>
         </li>
       </ul>
 
@@ -57,12 +69,14 @@ const HomePage = () => {
         <p>自動車部、edps、プログラミング関係ならとりあえず興味あるひと</p>
       </div>
       
-
+      <div class="friend">
+        <h1>一緒にプログラミングやってくれる人募集！</h1>
+      </div>
 
       
       
      
-    </>
+    </motion.div>
   )
 }
 

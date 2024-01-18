@@ -51,3 +51,43 @@ nav ul li a:hover {
   color: green;
 }
 
+.footer {
+  height: 100%;
+  margin-bottom: 0px;
+  display: flex;
+  background-color: #0073a8;
+  
+
+}
+
+.footer img {
+  padding-left: 5%;
+  width: 10%;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 50%;
+  padding-top: 3%;
+}
+
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+  
+}
+
+.footer ul li p {
+  font-size: 28px;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.footer ul li p:hover {
+  color: #000000;
+}
+
+

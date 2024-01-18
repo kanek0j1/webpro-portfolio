@@ -14,7 +14,13 @@ const Header = () => {
                     <Link to="/">ホーム</Link>
                 </li>
                 <li>
-                    <Link to="/blog">ブログ</Link>
+                    <Link to="/blog">学習内容</Link>
+                </li>
+                <li>
+                    <a href="https://ne231244test.netlify.app/">カフェ</a>
+                </li>
+                <li>
+                    <a href="https://ne231244test2.netlify.app/">動物</a>
                 </li>
             </ul>
         </nav>

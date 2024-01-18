@@ -1,5 +1,4 @@
 body{
-    height: 5000px;
     background-color: #FFFAF0;
 }
 
@@ -33,7 +32,7 @@ body{
 }
 
 .showlogo{
-    height: 25%;
+    height: 250px;
     display: flex;
     background-color: #ffffff;
     margin-top: -5%;
@@ -105,12 +104,20 @@ body{
 .me .image_circle{
     position: relative;
     left: 40%;
-    width: 23%;
-    height: 70%;
+    width: 22%;
+    height: 240px;
     border-radius:50%;
     background-image: url("../images/dogmac.jpg");
     background-size: 200%;
     background-position: 30% 50%;
+}
+
+.friend{
+    color: #ffffff;
+    height: 550px;
+    margin: 10%;
+    margin-top: 20%;
+    background-image: url("../images/hacker1.jpg");
 }
 
 

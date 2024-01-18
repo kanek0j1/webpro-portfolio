@@ -2,20 +2,26 @@ import './App.css';
 import Blogpage from './pages/Blogpage';
 import Header from './conponents/Header';
 import HomePage from './pages/HomePage';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Footer from './conponents/Footer';
+import { Route, Routes, useLocation } from 'react-router-dom';
+import {AnimatePresence} from "framer-motion"
 
 function App() {
+  const location =useLocation()
+
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
+      <AnimatePresence>
         <Header />
 
-        <Routes>
+        <Routes location={location} key={location.pathname}>
           <Route path="/" element={<HomePage />} />
           <Route path="/blog" element={<Blogpage />} />
         </Routes>
-      </div>
-    </Router>
+
+        <Footer />
+      </AnimatePresence> 
+    </div>
   );
 }
 
