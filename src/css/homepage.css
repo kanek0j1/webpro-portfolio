@@ -1,0 +1,125 @@
+body{
+    height: 5000px;
+    background-color: #FFFAF0;
+}
+
+.top{
+    background-color: #0073a8;
+}
+.top img{
+    width: 100%;
+    background-color: black;
+
+}
+
+.showsite {
+    background-color: #0073a8;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    font-size: 20px;
+    margin: 0;
+    padding:0;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 5%;
+    
+}
+
+.showsite li{
+    align-items: center;
+    list-style: none;
+    color: #ffffff;
+}
+
+.showlogo{
+    height: 25%;
+    display: flex;
+    background-color: #ffffff;
+    margin-top: -5%;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+#img{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+}
+
+.showsakuhin{
+    background-color: #0073a8;
+    padding: 5%;
+    margin-top: 20%;
+    text-align: center;
+}
+
+.showsakuhin h1{
+    margin-bottom:5%;
+    color: #FFFAF0;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 20%;
+    height: 20%;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 4%;
+    background-color: white;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.showsakuhin a{
+    background-color: #000000;
+    padding: 1%;
+    text-decoration: none;
+    color: #FFFAF0;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+}
+
+.me{
+    margin:10%;
+    height: 50%;
+    color: #000000;
+    text-align: center;
+}
+
+.me h1{
+    text-align: center;
+}
+
+.me .image_circle{
+    position: relative;
+    left: 40%;
+    width: 23%;
+    height: 70%;
+    border-radius:50%;
+    background-image: url("../images/dogmac.jpg");
+    background-size: 200%;
+    background-position: 30% 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
