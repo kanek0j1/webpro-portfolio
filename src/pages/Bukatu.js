@@ -21,7 +21,7 @@ const Bukatu = () => {
                 <h2>自動車部という存在を知っているか</h2>   
             </div>
 
-            <div class="box">
+            <div class="box3">
             <img src = {jidosha2} alt ="jidosha2"></img>
                 <h3>自動車部というのは体育会系の部活であり、普段は車の整備や、ジムカーナというタイムトライアルに出たりしている、とても楽しい部活です！</h3>   
             </div>
@@ -31,7 +31,7 @@ const Bukatu = () => {
                 <img src = {jidosha1} alt ="jidosha1"></img>
             </div>
 
-            <div class="box">
+            <div class="box3">
                 <img src = {jidosha3} alt ="jidosha3"></img>
                 <h3>コレアはダートラという砂の上を車で走りタイムを競う競技です。自分はまだやったことないのでやってみたいです。</h3>   
             </div>

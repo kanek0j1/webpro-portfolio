@@ -17,26 +17,27 @@ body {
     font-family: "BIZ UDMincho";
 }
 
-.box{
-    font-size: 20px;
+.box3{
     margin:4%;
-    padding: 10px;
+    padding: 20px;
     display:flex;
     border: solid 2px #ffcb8a;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #0073a8;
+    
 
 }
 
-.box h3{
+.box3 h3{
+    color: antiquewhite;
     font-size: 20px;
-    margin-top: 7%;
     padding-left:3%;
     padding-right:5%;
+    padding: 60px;
     line-height: 2.5;
     
 }
 
-.box img{
+.box3 img{
     height:400px;
 }
 
@@ -47,10 +48,11 @@ body {
     display:flex;
     text-align:center;
     border: solid 2px #ffcb8a;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #0073a8;
 }
 
 .box2 h3{
+    color: antiquewhite;
     font-size: 20px;
     margin-top: 7%;
     padding-right:5%;

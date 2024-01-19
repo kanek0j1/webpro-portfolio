@@ -15,10 +15,10 @@ const Blogpage = () => {
       animate={{opacity: 1}} 
       transition={{duration: 1.0, delay:0.4}}
     >
-      <div class="main">
+      <div class="main6">
             <h1>今回のサイト作成で学習したもの</h1>
             
-            <div class="box">
+            <div class="box6">
                 <h3>React</h3>
                 <img src = {react} alt ="react"></img>
                 <p>このサイトのほとんどと言っていいです。reactというのはjavascriptのフレームワークになります。コンポーネントというものがあり、
@@ -26,7 +26,7 @@ const Blogpage = () => {
                   勉強したもののフークスという機能をあまり使わなかったので、今後使っていきたい。</p>
             </div>
 
-            <div class="box">
+            <div class="box6">
                 <h3>FramerMotion</h3>
                 <img src = {frame} alt ="frame"></img>
                 <p>こちらは上のreactのアニメーションライブラリになります。このライブラリを使えば、アニメーションが簡単に表示できるというものになります。
@@ -34,7 +34,7 @@ const Blogpage = () => {
                 </p>
             </div>
 
-            <div class="box">
+            <div class="box6">
                 <h3>Figma</h3>
                 <img src = {figma} alt ="figma"></img>
                 <p>こちらはプログラミングというよりかはwebデザインを考えるときに使います。
@@ -43,7 +43,7 @@ const Blogpage = () => {
                   </p>
             </div>
 
-            <div class="box">
+            <div class="box6">
                 <h3>GitHub</h3>
                 <img src = {gitkun} alt ="gitkun"></img>
                 <p>こちらはリモートディレクトリに自分のローカルディレクトリを連携できるツールです。メリットに関しては、
@@ -52,7 +52,7 @@ const Blogpage = () => {
                 </p>
             </div>
 
-            <div class="box">
+            <div class="box6">
                 <h3>PostgreSQL</h3>
                 <img src = {zoukun} alt ="zoukun"></img>
                 <p>こちらはサーバーサイドを書いてnetlifyのfunction機能も用いて投稿サイトを作ろうと考えましたが、
