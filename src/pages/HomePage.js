@@ -15,6 +15,20 @@ const HomePage = () => {
       animate={{opacity: 1}} 
       transition={{duration: 1.0, delay:0.4}}
     >
+      <motion.div
+              initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }} 
+              transition={{ duration: 1 }}
+            >
+              <h1 class="catchcopy">コーディングの</h1>
+            </motion.div>
+      <motion.div
+              initial={{ x: -100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }} 
+              transition={{ duration: 1, delay:0.4 }}
+            >
+              <h1 class="catchcopy2">”楽しさ”</h1>
+            </motion.div>
       <div class="top">
         <img src = {dogImage} alt ="dogmac"></img>
       </div>

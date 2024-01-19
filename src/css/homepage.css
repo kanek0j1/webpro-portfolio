@@ -11,6 +11,23 @@ body{
 
 }
 
+.catchcopy {
+    position: absolute;
+    font-size: 70px;
+    margin-left: 50%;
+    margin-top: 15%;
+    color: #0073a8;
+    
+}
+
+.catchcopy2 {
+    position: absolute;
+    font-size: 70px;
+    margin-left: 70%;
+    margin-top: 25%;
+    color: wheat;
+}
+
 .showsite {
     background-color: #0073a8;
     align-items: center;
