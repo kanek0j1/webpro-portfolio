@@ -60,7 +60,7 @@ const HomePage = () => {
             <p>動物の紹介サイトを作ってみました。全体のデザインはサバンナとかを意識しました。背景をサバンナ風に加工しましたので良かったらみてください。</p>
           </div>
         </div>
-        <p><Link to="/blog">詳細はこちらから</Link></p>
+        <p><Link to="/OldWork">詳細はこちらから</Link></p>
       </div>
 
       <div class="me">
