@@ -57,6 +57,7 @@ body{
 .showsakuhin h1{
     margin-bottom:5%;
     color: #FFFAF0;
+    text-decoration:underline;
 }
 
 .cards{
@@ -107,17 +108,23 @@ body{
     width: 22%;
     height: 240px;
     border-radius:50%;
-    background-image: url("../images/dogmac.jpg");
+    background-image: url("../images/mee.png");
     background-size: 200%;
-    background-position: 30% 50%;
+    background-position: 60% 50%;
 }
 
 .friend{
     color: #ffffff;
     height: 550px;
+    
     margin: 10%;
-    margin-top: 20%;
+    margin-top: 15%;
+    padding: 5%;
     background-image: url("../images/hacker1.jpg");
+}
+
+.friend h2 {
+    text-align: center;
 }
 
 

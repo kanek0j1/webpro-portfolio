@@ -6,14 +6,7 @@ const Footer = () => {
     <footer>
         <div class="footer">
             <img src = {rogo3} alt ="rogo"></img>
-            <ul>
-                <li>
-                    <p>aa</p>
-                </li>
-                <li>
-                <p>aa</p>
-                </li>
-            </ul>
+            
         </div>
     </footer>
   )
