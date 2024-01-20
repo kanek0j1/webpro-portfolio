@@ -58,11 +58,11 @@ const HomePage = () => {
       <div class="showsakuhin">
         <h1>これまでの作品たち</h1>
         <div class = "cards">
-          <div class = "card">
-            <img src = {rogo3} alt ="rogo3"></img>
-            <h3>css無しサイト</h3>
-            <p>こちらはカフェのサイトをcss無しのhtmlで描きました。htmlだけなのでそれで工夫するのは難しいです。良かったらご覧ください。</p>
-          </div>
+            <div class = "card">
+              <img src = {rogo3} alt ="rogo3"></img>
+              <h3>css無しサイト</h3>
+              <p>こちらはカフェのサイトをcss無しのhtmlで描きました。htmlだけなのでそれで工夫するのは難しいです。良かったらご覧ください。</p>
+            </div>
           <div class = "card">
             <img src = {cafelogo} alt ="cafelogo"></img>
             <h3>cafeOSORAKU</h3>
@@ -74,7 +74,16 @@ const HomePage = () => {
             <p>動物の紹介サイトを作ってみました。全体のデザインはサバンナとかを意識しました。背景をサバンナ風に加工しましたので良かったらみてください。</p>
           </div>
         </div>
-        <p><Link to="/OldWork">詳細はこちらから</Link></p>
+        <motion.div
+          whileHover={{ scale: 1.2 }}
+          whileTap={{
+            scale: 0.8,
+            rotate: -90,
+            borderRadius: "100%"
+          }}
+        >
+          <p><Link to="/OldWork">詳細はこちらから</Link></p>
+        </motion.div>
       </div>
 
       <div class="me">
