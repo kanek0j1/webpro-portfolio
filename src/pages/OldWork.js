@@ -16,7 +16,7 @@ const OldWork = () => {
             transition={{duration: 1.0, delay:0.4}}
         >
         <div class="main1">
-                <h1>今回のサイト作成で学習したもの</h1>
+                <h1>過去に作成したwebページ</h1>
                 
                 <div class="box5">
                     <h3>cafeCssなし</h3>
