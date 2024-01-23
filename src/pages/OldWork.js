@@ -21,7 +21,7 @@ const OldWork = () => {
                 <div class="box5">
                     <h3>cafeCssなし</h3>
                     <img src = {cafecss} alt ="cafecss"></img>
-                    <p>css無しでのカフェページを作りました</p>
+                    <p>css無しでのカフェページを作りました。</p>
                     <a href="https://ne231244test.netlify.app/nocss">詳細はこちらから</a>
                     
                 </div>
